@@ -58,7 +58,7 @@ body {
 }
 
 .description {
-    padding: 15px;
+    padding: 20px;
 }
 
 .description h3 {
@@ -72,4 +72,5 @@ body {
     font-size: 14px;
     color: #666;
     line-height: 1.6;
+    text-align: justify;
 }
