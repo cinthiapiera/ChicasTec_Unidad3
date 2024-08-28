@@ -1,0 +1,55 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width:100%;
+}
+
+.blog {
+  background: #3D444B;
+  padding: 100px 30px;
+}
+
+.blog h1 {
+  text-align:center;
+  color:#fff;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.flex {
+  /* max-width:1100px; */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.flex-child {
+  width:320px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border-radius:3px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.flex-child:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+
+.info {
+  padding: 15px;
+  background: #fff;
+  height: 200px;
+  
+}
+
+  
+  
