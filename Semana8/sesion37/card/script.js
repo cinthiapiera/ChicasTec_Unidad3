@@ -1,4 +1,4 @@
-const apiURL = "https://www.freetogame.com/api/games";
+const apiURL = "https://www.mmobomb.com/api1/games";
 
 async function getGames() {
     try {

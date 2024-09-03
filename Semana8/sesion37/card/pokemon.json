@@ -1,0 +1,493 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png",
+    "types": [
+      {
+        "name": "grass"
+      },
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 49
+  },
+  {
+    "id": 2,
+    "name": "ivysaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/2.png",
+    "types": [
+      {
+        "name": "grass"
+      },
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 62
+  },
+  {
+    "id": 3,
+    "name": "venusaur",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/3.png",
+    "types": [
+      {
+        "name": "grass"
+      },
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 82
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/4.png",
+    "types": [
+      {
+        "name": "fire"
+      }
+    ],
+    "attack": 52
+  },
+  {
+    "id": 5,
+    "name": "charmeleon",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/5.png",
+    "types": [
+      {
+        "name": "fire"
+      }
+    ],
+    "attack": 64
+  },
+  {
+    "id": 6,
+    "name": "charizard",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/6.png",
+    "types": [
+      {
+        "name": "fire"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 84
+  },
+  {
+    "id": 7,
+    "name": "squirtle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/7.png",
+    "types": [
+      {
+        "name": "water"
+      }
+    ],
+    "attack": 48
+  },
+  {
+    "id": 8,
+    "name": "wartortle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/8.png",
+    "types": [
+      {
+        "name": "water"
+      }
+    ],
+    "attack": 63
+  },
+  {
+    "id": 9,
+    "name": "blastoise",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/9.png",
+    "types": [
+      {
+        "name": "water"
+      }
+    ],
+    "attack": 83
+  },
+  {
+    "id": 10,
+    "name": "caterpie",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10.png",
+    "types": [
+      {
+        "name": "bug"
+      }
+    ],
+    "attack": 30
+  },
+  {
+    "id": 11,
+    "name": "metapod",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/11.png",
+    "types": [
+      {
+        "name": "bug"
+      }
+    ],
+    "attack": 20
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/12.png",
+    "types": [
+      {
+        "name": "bug"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 45
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/13.png",
+    "types": [
+      {
+        "name": "bug"
+      },
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 35
+  },
+  {
+    "id": 14,
+    "name": "kakuna",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/14.png",
+    "types": [
+      {
+        "name": "bug"
+      },
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 25
+  },
+  {
+    "id": 15,
+    "name": "beedrill",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/15.png",
+    "types": [
+      {
+        "name": "bug"
+      },
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 90
+  },
+  {
+    "id": 16,
+    "name": "pidgey",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/16.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 45
+  },
+  {
+    "id": 17,
+    "name": "pidgeotto",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/17.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 60
+  },
+  {
+    "id": 18,
+    "name": "pidgeot",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/18.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 80
+  },
+  {
+    "id": 19,
+    "name": "rattata",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/19.png",
+    "types": [
+      {
+        "name": "normal"
+      }
+    ],
+    "attack": 56
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/20.png",
+    "types": [
+      {
+        "name": "normal"
+      }
+    ],
+    "attack": 81
+  },
+  {
+    "id": 21,
+    "name": "spearow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/21.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 60
+  },
+  {
+    "id": 22,
+    "name": "fearow",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/22.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "flying"
+      }
+    ],
+    "attack": 90
+  },
+  {
+    "id": 23,
+    "name": "ekans",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/23.png",
+    "types": [
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 60
+  },
+  {
+    "id": 24,
+    "name": "arbok",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/24.png",
+    "types": [
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 95
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png",
+    "types": [
+      {
+        "name": "electric"
+      }
+    ],
+    "attack": 55
+  },
+  {
+    "id": 26,
+    "name": "raichu",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/26.png",
+    "types": [
+      {
+        "name": "electric"
+      }
+    ],
+    "attack": 90
+  },
+  {
+    "id": 27,
+    "name": "sandshrew",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/27.png",
+    "types": [
+      {
+        "name": "ground"
+      }
+    ],
+    "attack": 75
+  },
+  {
+    "id": 28,
+    "name": "sandslash",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/28.png",
+    "types": [
+      {
+        "name": "ground"
+      }
+    ],
+    "attack": 100
+  },
+  {
+    "id": 29,
+    "name": "nidoran-f",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/29.png",
+    "types": [
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 47
+  },
+  {
+    "id": 30,
+    "name": "nidorina",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/30.png",
+    "types": [
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 62
+  },
+  {
+    "id": 31,
+    "name": "nidoqueen",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/31.png",
+    "types": [
+      {
+        "name": "poison"
+      },
+      {
+        "name": "ground"
+      }
+    ],
+    "attack": 92
+  },
+  {
+    "id": 32,
+    "name": "nidoran-m",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/32.png",
+    "types": [
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 57
+  },
+  {
+    "id": 33,
+    "name": "nidorino",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/33.png",
+    "types": [
+      {
+        "name": "poison"
+      }
+    ],
+    "attack": 72
+  },
+  {
+    "id": 34,
+    "name": "nidoking",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/34.png",
+    "types": [
+      {
+        "name": "poison"
+      },
+      {
+        "name": "ground"
+      }
+    ],
+    "attack": 102
+  },
+  {
+    "id": 35,
+    "name": "clefairy",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/35.png",
+    "types": [
+      {
+        "name": "fairy"
+      }
+    ],
+    "attack": 45
+  },
+  {
+    "id": 36,
+    "name": "clefable",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/36.png",
+    "types": [
+      {
+        "name": "fairy"
+      }
+    ],
+    "attack": 70
+  },
+  {
+    "id": 37,
+    "name": "vulpix",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/37.png",
+    "types": [
+      {
+        "name": "fire"
+      }
+    ],
+    "attack": 41
+  },
+  {
+    "id": 38,
+    "name": "ninetales",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/38.png",
+    "types": [
+      {
+        "name": "fire"
+      }
+    ],
+    "attack": 76
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/39.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "fairy"
+      }
+    ],
+    "attack": 45
+  },
+  {
+    "id": 40,
+    "name": "wigglytuff",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/40.png",
+    "types": [
+      {
+        "name": "normal"
+      },
+      {
+        "name": "fairy"
+      }
+    ],
+    "attack": 70
+  }
+]
