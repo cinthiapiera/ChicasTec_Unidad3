@@ -1,4 +1,5 @@
-const apiURL = "https://www.mmobomb.com/api1/games";
+// const apiURL = "https://www.mmobomb.com/api1/games";
+const apiURL = "pokemon.json";
 
 async function getGames() {
     try {
@@ -7,6 +8,7 @@ async function getGames() {
             throw new Error(`Error: ${respuesta.status}`);
         }
         const datos = await respuesta.json();
+        console.log(datos);
         mostrarDatos(datos);
     } catch (error) {
         console.error("Hubo un problema con la solicitud:", error);
@@ -23,7 +25,8 @@ function mostrarDatos(datos) {
 
         // Crear y agregar la imagen
         let img = document.createElement("img");
-        img.src = datos[i].thumbnail;
+        // img.src = datos[i].thumbnail;
+        img.src = datos[i].image;
         img.alt = "Foto de videojuego";
         flexChild.appendChild(img);
 
@@ -33,12 +36,14 @@ function mostrarDatos(datos) {
 
         // Crear y agregar el título
         let h3 = document.createElement("h3");
-        h3.textContent = datos[i].title;
+        // h3.textContent = datos[i].title;
+        h3.textContent = datos[i].name;
         infoDiv.appendChild(h3);
 
         // Crear y agregar la descripción
         let p = document.createElement("p");
-        p.textContent = datos[i].short_description;
+        // p.textContent = datos[i].short_description;
+        p.textContent = datos[i].attack;
         infoDiv.appendChild(p);
 
         // Agregar la div de información al contenedor principal
