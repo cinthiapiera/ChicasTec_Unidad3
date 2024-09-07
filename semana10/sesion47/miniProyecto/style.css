@@ -1,0 +1,14 @@
+#user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-card {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: beige;
+}
