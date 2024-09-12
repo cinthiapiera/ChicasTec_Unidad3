@@ -1,15 +1,20 @@
+//template literal (backticks)
+// let nombre='Fiorella';
+// let edad=25;
+
+// console.log("Hola, mi nombre es "+nombre+" y mi edad es "+edad);
+// console.log(`hola mi nombre es ${nombre} y mi edad es ${edad}`);
+
 function generateUrl() {
-    // Generamos un número aleatorio entre 0 y 500
-    let id = Math.round(Math.random() * 500);
-    return `https://picsum.photos/id/${id}/info`;
+    let id = Math.round(Math.random()*500);
+    return `https://picsum.photos/id/${id}/info`
 }
 
 function renderPic(data) {
-    // Manipulamos el DOM para agregar las imágenes
     let div = $("<div></div>");
     div.addClass("pic card");
 
-    let img = $("<img></img>");
+    let img = $("<img>");
     img.attr("src", data.download_url);
     img.addClass("card-img");
     div.append(img);
@@ -23,19 +28,17 @@ function renderPic(data) {
 }
 
 function getPic() {
-    // Consumimos la API
     $.ajax({
         type: 'GET',
-        url: generateUrl(),
-        dataType: "json",
+        url: generateUrl(), 
+        datatype: 'json',
         async: true,
-        success: function (data) {renderPic(data)}, // En caso de consulta exitosa se ejecuta esto
-    });
+        success: function(data){renderPic(data)}
+    })
 }
 
-$(document).ready(function () {
-    // Desplegamos 9 imágenes
-    for (let i = 0; i < 9; i++) {
+$(document).ready(function(){
+    for (let index = 1; index < 7; index++) {
         getPic();
     }
 })

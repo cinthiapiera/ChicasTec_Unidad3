@@ -2,15 +2,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-/*
-.flex-stretch {
-    align-items: stretch;
-}
-
-.full-height {
-    height: 100%;
-}
-*/
 
 .card {
     align-items: stretch;
@@ -26,6 +17,8 @@
 
 .card-title {
     align-self: end;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
