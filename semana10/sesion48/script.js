@@ -1,4 +1,4 @@
-//template literal (backticks)
+//Recordar: template literal (backticks)
 // let nombre='Fiorella';
 // let edad=25;
 
