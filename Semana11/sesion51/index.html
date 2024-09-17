@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadística Covid19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="countries">País:</label>
+        <select id="countries">
+            <option value="">Selecciona un país</option>
+        </select>
+        <label for="time-span">Rango (días):</label>
+        <select id="time-span">
+            <option value="7">7 días</option>
+            <option value="14">14 días</option>
+            <option value="30">30 días</option>
+            <option value="90">90 días</option>
+            <option value="365">365 días</option>
+        </select>
+    </form>
+    <div id="chartContainer"></div>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
