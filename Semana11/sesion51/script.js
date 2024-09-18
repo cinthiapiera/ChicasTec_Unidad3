@@ -59,7 +59,7 @@ function renderCountryData(timeline,country,time) {
             showInLegend: true,
             legendText: "Nuevos casos",
             indexLabelFontSize: 16,
-            dataPoints: createArr(timeline, timeSpan)[0],
+            dataPoints: createArr(timeline, time)[0],
         },
         {
             type: "line",
@@ -67,7 +67,7 @@ function renderCountryData(timeline,country,time) {
             showInLegend: true,
             legendText: "Nuevos fallecimientos",
             indexLabelFontSize: 16,
-            dataPoints: createArr(timeline, timeSpan)[1],
+            dataPoints: createArr(timeline, time)[1],
         }]
     });
     chart.render();
