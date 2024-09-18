@@ -28,7 +28,7 @@ function getCountryInfo(country,time) {
         url: `https://disease.sh/v3/covid-19/historical/${country}?lastdays=${time}`,
         dataType: "json",
         success: function(info){
-            renderCountryData(info,country,time);
+            renderCountryData(info.timeline,country,time);
         },
         error: function(){
             alert("No se conecto con la API");
@@ -36,7 +36,42 @@ function getCountryInfo(country,time) {
     })
 }
 
-
+function renderCountryData(timeline,country,time) {
+    // console.log(timeline,country,time);
+    var chart = new CanvasJS.Chart(chartContainer,{
+        animationEnabled: true,
+        theme: "light2",
+        title:{
+            text: `Casos Covid19 en ${country}`
+        },
+        axisX: {
+            labelAngle: 50,
+            title: "Fecha",
+        },
+        axisY: {
+            title: "Número de casos",
+        },
+        axisY2: {
+            title: "Número de fallecimientos",
+        },
+        data: [{
+            type: "line",
+            showInLegend: true,
+            legendText: "Nuevos casos",
+            indexLabelFontSize: 16,
+            dataPoints: createArr(timeline, timeSpan)[0],
+        },
+        {
+            type: "line",
+            axisYType: "secondary",
+            showInLegend: true,
+            legendText: "Nuevos fallecimientos",
+            indexLabelFontSize: 16,
+            dataPoints: createArr(timeline, timeSpan)[1],
+        }]
+    });
+    chart.render();
+}
 
 $(document).ready(function () {
     getAllCountries();
