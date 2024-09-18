@@ -22,10 +22,37 @@ function renderAllCountries(data){
     }
 }
 
+function getCountryInfo(country,time) {
+    $.ajax({
+        type: "GET",
+        url: `https://disease.sh/v3/covid-19/historical/${country}?lastdays=${time}`,
+        dataType: "json",
+        success: function(info){
+            renderCountryData(info,country,time);
+        },
+        error: function(){
+            alert("No se conecto con la API");
+        }
+    })
+}
+
+
+
 $(document).ready(function () {
     getAllCountries();
-    // $("#countries").on("change",function () {
-    //     let selectCountrie = $("#countries option:selected").val();
-    // })
+    $("#countries").on("change",function () {
+        let selectCountry = $("#countries option:selected").val();
+        let timeSpan = $("#time-span option:selected").val();
+        if(selectCountry){
+            getCountryInfo(selectCountry,timeSpan);
+        }
+    })
+    $("#time-span").on("change",function () {
+        let selectCountry = $("#countries option:selected").val();
+        let timeSpan = $("#time-span option:selected").val();
+        if(selectCountry){
+            getCountryInfo(selectCountry,timeSpan);
+        }
+    })
     
 })
