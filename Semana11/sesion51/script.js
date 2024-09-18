@@ -73,6 +73,29 @@ function renderCountryData(timeline,country,time) {
     chart.render();
 }
 
+function createArr(timeline, time) {
+
+    let dates = Object.keys(timeline.cases).slice(-time);
+    let newCases = Object.values(timeline.cases).slice(-time);
+    let newDeaths = Object.values(timeline.deaths).slice(-time);
+
+    let dataPointsCases = [];
+    let dataPointsDeaths = [];
+
+    for (let i = 0; i < time; i++) {
+        dataPointsCases.push({
+            label: dates[i],
+            y: newCases[i]
+        });
+        dataPointsDeaths.push({
+            label: dates[i],
+            y: newDeaths[i]
+        });
+    }
+    return[dataPointsCases,dataPointsDeaths];
+
+}
+
 $(document).ready(function () {
     getAllCountries();
     $("#countries").on("change",function () {
